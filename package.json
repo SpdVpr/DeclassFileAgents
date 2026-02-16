@@ -1,0 +1,29 @@
+{
+    "name": "declassfiles-mcp-server",
+    "version": "1.0.0",
+    "description": "MCP server for searching 29,000+ declassified U.S. government documents (Epstein, JFK, 9/11)",
+    "keywords": [
+        "mcp",
+        "ai-agents",
+        "declassified",
+        "osint",
+        "foia",
+        "epstein",
+        "jfk",
+        "9/11",
+        "government-documents"
+    ],
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "declassfiles-mcp": "./index.js"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SpdVpr/DeclassFileAgents"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.0.0"
+    }
+}
